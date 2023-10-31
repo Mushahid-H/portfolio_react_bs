@@ -1,0 +1,8 @@
+.link-item:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.Closed {
+  display: flex;
+  /* margin-right: -40px; */
+}

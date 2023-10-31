@@ -1,0 +1,33 @@
+h1 {
+  color: rgb(24, 24, 227);
+}
+.bckPic {
+  background-image: url('../assets/b.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.bckPic2 {
+  background-image: url('../assets/bck.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    color: white;
+  }
+  .bckPic {
+    background-image: url('../assets/b.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+  .bckPic2 {
+    background-image: url('../assets/bck.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
