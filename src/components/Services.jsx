@@ -18,7 +18,7 @@ const Services = () => {
           HERE ARE SOME OF MY EXPERTISE
         </h5>
 
-        <div className='col-md-4 text-center d-flex flex-column align-items-center my-5'>
+        <div className='col-md-4 text-center d-flex flex-column align-items-center my-md-5 my-3'>
           <div
             id='hexagon'
             className='d-flex justify-content-center align-items-center'
@@ -52,7 +52,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className='col-md-4 text-center d-flex flex-column align-items-center my-5'>
+        <div className='col-md-4 text-center d-flex flex-column align-items-center my-md-5 my-3'>
           <div
             id='hexagon2'
             className='d-flex justify-content-center align-items-center'
@@ -86,7 +86,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className='col-md-4 text-center d-flex flex-column align-items-center my-5'>
+        <div className='col-md-4 text-center d-flex flex-column align-items-center my-md-5 my-3'>
           <div
             id='hexagon4'
             className='d-flex justify-content-center align-items-center'

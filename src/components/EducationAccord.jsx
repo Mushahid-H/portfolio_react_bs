@@ -26,7 +26,7 @@ const EducationAccord = ({
           <div
             id={`${collapseId}`}
             class='accordion-collapse collapse'
-            aria-labelledby={`${headerId}`}
+            aria-labelledby={`#${headerId}`}
             data-bs-parent='#accordionExample'
           >
             <div class='accordion-body'>

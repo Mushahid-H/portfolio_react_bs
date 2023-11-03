@@ -7,22 +7,22 @@ import Services from './components/Services'
 import Skills from './components/Skills'
 import { List } from 'react-bootstrap-icons'
 import Education from './components/Education'
-import { useState } from 'react'
+// import { useState } from 'react'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import Work from './components/Work'
 
 function App() {
-  const [header, setHeader] = useState(true)
+  // const [header, setHeader] = useState(true)
   return (
     <BrowserRouter>
-      {}
       <div className='row g-0 d-flex justify-content-md-start '>
-        {}
         <div
-          className='col-md-3 d-md-block px-0 collapse  menu sticky-top top-0 left-0 bottom-0'
+          className='col-md-3 d-md-block px-0 collapse  menu sticky-md-top  top-md-0 left-md-0'
           style={{
             height: '100vh',
             backgroundColor: '#f2f3f7',
+            // zIndex: '-99',
           }}
           id='collapseit'
         >
@@ -39,7 +39,7 @@ function App() {
           />
         </div>
 
-        <div className='col-sm-9  px-5  justify-content-end'>
+        <div className='col-md-9  px-5  justify-content-end'>
           <div className='col'>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -58,6 +58,7 @@ function App() {
                   />
                 }
               />
+              <Route path='/work' element={<Work />} />
             </Routes>
           </div>
         </div>

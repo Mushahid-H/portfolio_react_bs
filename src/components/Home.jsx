@@ -11,8 +11,8 @@ const Home = () => {
       if (header === header1) {
         setHeader(header2)
       } else setHeader(header1)
-    }, 10000)
-    return () => clearInterval(interval)
+    }, 5000)
+    // return () => clearInterval(interval)
   }
   return (
     <section>

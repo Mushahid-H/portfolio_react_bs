@@ -22,12 +22,12 @@ const Sidebar = () => {
           />
         </div>
 
-        <div className='text-center '>
+        <div className='text-center my-3'>
           <h4 className='h5 fw-bold '>Mushahid Hussain</h4>
-          <span className='fw-thiner'>Front-end Developer/Designer</span>
+          <span className='fw-thiner small '>Front-end Developer/Designer</span>
         </div>
 
-        <ul className='list-unstyled d-flex flex-column align-items-center gap-md-3'>
+        <ul className='list-unstyled d-flex flex-md-column flex-row align-items-center justify-content-center gap-3 flex-wrap gap-md-3'>
           <li>
             <NavLink id='home' to='/' className='links'>
               Home
@@ -74,7 +74,7 @@ const Sidebar = () => {
             </NavLink>
           </li>
         </ul>
-        <div className='text-muted fw-thin text-center small'>
+        <div className='text-muted fw-thin text-center small d-md-block d-none'>
           &copy; Copyrigths @2023 All rights reserved | This <br />
           is made by Mushahid Hussain
         </div>

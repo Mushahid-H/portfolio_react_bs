@@ -58,13 +58,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className='row gap-4 my-5 bg-warning p-5'>
-        <h3 className='gap-5'>
+      <div className='row gap-md-4 gap-2 my-5 bg-warning p-md-5 p-4 '>
+        <h3 className='gap-md-5 gap-3 '>
           I am happy to let you know that I have
           <br /> completed 50+ projects sucessfully!
         </h3>
-        <div>
-          <button className='btn btn-outline-dark'>Hire Me</button>
+        <div className=''>
+          <button className='btn btn-outline-dark '>Hire Me</button>
         </div>
       </div>
     </div>
